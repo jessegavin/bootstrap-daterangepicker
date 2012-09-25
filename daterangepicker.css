@@ -2,23 +2,39 @@
   max-width: none;
 }
 
-.daterangepicker.opensleft .ranges, .daterangepicker.opensleft .calendar {
+.daterangepicker.opensleft .ranges, 
+.daterangepicker.opensleft .calendar, 
+.daterangepicker.opensleft .calendars {
   float: left;
   margin: 4px;
 }
 
-.daterangepicker.opensright .ranges, .daterangepicker.opensright .calendar {
+.daterangepicker.opensright .ranges, 
+.daterangepicker.opensright .calendar, 
+.daterangepicker.opensright .calendars {
   float: right;
   margin: 4px;
 }
 
+.daterangepicker .apply-button {
+	clear: both;
+  text-align: right;
+  margin: 4px;
+  padding-top: 4px;
+}
+
+
 .daterangepicker .ranges {
   width: 160px;
   text-align: left;
+  display: none;
+}
+
+.daterangepicker .calendars {
+  display: none;
 }
 
 .daterangepicker .calendar {
-  display: none;
   max-width: 230px;
 }
 
